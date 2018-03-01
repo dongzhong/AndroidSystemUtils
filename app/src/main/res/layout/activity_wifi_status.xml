@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview_wifistatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/button_start_listen_wifi_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Listen Wifi Status"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/button_stop_listen_wifi_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Listen Wifi Status"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+</ScrollView>
